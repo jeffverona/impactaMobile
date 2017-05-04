@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nomeProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Produto"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/valorProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor (R$)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/categoriaProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Categoria"
+            android:inputType="textPersonName" />
+
+        <CheckBox
+            android:id="@+id/favorito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marcar produto como favorito" />
+
+        <Button
+            android:id="@+id/botaoCadastro"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar" />
+    </LinearLayout>
+</RelativeLayout>
